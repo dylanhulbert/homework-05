@@ -8,4 +8,4 @@ I created the contents of this repo as homework for my Bootcamp at UofO
 * moment.js
 * forEach
 ### Additional notes/lessons learned
-Lots of copy/paste
+Lots of bootstrap copy/paste
