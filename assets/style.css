@@ -39,21 +39,21 @@ textarea{
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px dashed rgb(140, 171, 179);
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #f8f8f8;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #eb1308;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #5f75d8;
   color: white;
 }
 

@@ -36,13 +36,13 @@ planWorkday.forEach(function(timeBlock, index) {
 	var row =
 		'<div class="time-block" id="' +
 		index +
-		'"><div class="row no-gutters input-group"><div class="col-sm-2 col-lg-1 input-group-prepend hour justify-content-sm-end pr-3 pt-3">' +
+		'"><div class="row no-gutters input-group"><div class="col-sm col-lg-1 input-group-prepend hour justify-content-sm-end pr-3 pt-3">' +
 		timeLabel +
 		'</div><textarea class="form-control ' +
 		blockColor +
 		'">' +
 		timeBlock.event +
-		'</textarea><div class="col-sm-2 col-lg-1 input-group-append"><button class="saveBtn btn-block" type="submit"><i class="fas fa-plus"></i></button></div></div></div>';
+		'</textarea><div class="col-sm col-lg-1 input-group-append"><button class="saveBtn btn-block" type="submit"><i class="fas fa-plus"></i></button></div></div></div>';
 
 	// show entry rows
 	$(".container").append(row);
